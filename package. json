@@ -1,15 +1,16 @@
 {
-  "name": "discord-sales-mcp-bot",
+  "name": "pimenta-vendas-bot",
   "version": "1.0.0",
-  "description": "Bot de Vendas Automático para Discord",
-  "main": "discord_sales_bot.js",
+  "description": "Bot de Vendas Discord - Pimenta Store",
+  "main": "index.js",
   "scripts": {
-    "start": "node discord_sales_bot.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0",
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
