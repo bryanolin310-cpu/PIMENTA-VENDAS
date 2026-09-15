@@ -1,0 +1,12 @@
+NAME=PimentaStore
+services:
+  - type: worker
+    name: pimenta-store-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: MP_TOKEN
+        sync: false
